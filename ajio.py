@@ -17,7 +17,7 @@ options.add_experimental_option('useAutomationExtension', False)
 
 file_path =str(Path(__file__).resolve().parent.parent)
 print("abhishek ",file_path)
-driver = webdriver.Chrome(file_path+'\chromedriver_win32\cromedriver.exe',options=options)
+driver = webdriver.Chrome(file_path+'\cromedriver.exe',options=options)
 
 product_link = 'https://www.ajio.com/puma-flair-2-lace-up-running-shoes/p/469112409_grey?user=new'
 driver.get(product_link)
